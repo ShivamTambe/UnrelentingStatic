@@ -1,8 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=Quicksand&display=swap');
+.navbtn a{
+    font-family: 'Quicksand', sans-serif;
+    opacity: 1;
+    margin: 0 10px;
+    font-size: 0.9rem;
+}
+
+.navbtn a:hover{
+    opacity: 1;
+    color: white;
+}
+.topp{
+    display: flex;
+    justify-content: space-between;
+}
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: black;
+    background-color: #227143;
+    background-color: #4C8E17;
     color: white;
     font-family: 'Acumin Pro',sans-serif;
     color: #ededef;
@@ -35,6 +53,8 @@ body{
     position: static;
     z-index: 40;
     background-color: #020314;
+    background-color: #1b7348;
+    background-color: #528839;
     backdrop-filter: blur(8px);
     justify-content: space-between;
     font-size: 16px;
@@ -65,11 +85,11 @@ body{
     grid-row-gap: 1rem;
 }
 .startbtn{
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 0.25rem;
     background-color: #020314;
     color: #ededef;
-    font-size: .875rem;
+    font-size: 1rem;
     line-height: .875rem;
 }
 .startbtncover{
@@ -110,6 +130,7 @@ body{
 }
 .blinktxt{
     letter-spacing: -.025em;
+    background-image: linear-gradient(135deg,#8a0086,#920481 8%,#9b097c 18%,#a00c79 23%,#a91174 32%,#b1166f 41%,#bc1d68 53%,#c72361 65%,#d2295b 76%,#df3153 90%,#e9364e 100%,#f27121);
     background-image: linear-gradient(135deg,#8a0086,#920481 8%,#9b097c 18%,#a00c79 23%,#a91174 32%,#b1166f 41%,#bc1d68 53%,#c72361 65%,#d2295b 76%,#df3153 90%,#e9364e 100%,#f27121);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -1149,7 +1170,7 @@ img {
     flex-direction: column;
     align-items: center;
     border-radius: 0.5rem;
-    /* background-image: linear-gradient(135deg,#8a0083,#a3117a 48%,#e94057 83%,#f25d00); */
+    background-image: linear-gradient(135deg,#8a0083,#a3117a 48%,#e94057 83%,#f25d00);
     background-image: linear-gradient(135deg,#002d8a,#30a311 48%,#5de940 83%,#f2e400);
     box-sizing: border-box;
 }
@@ -1621,4 +1642,31 @@ body {
 }
 .navbar{
     height: 70px;
+}
+.logo2div{
+    width: 30px;
+    height: 30px;
+    background-image: url('https://assets.website-files.com/609486d2fafa37698a57db5b/609bf4ae6380ac34e545f653_firstbase-logo.svg');
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    background-size: 135px;
+}
+.logo2title{
+    position: relative;
+    left: 35px;
+    top: -22px;
+}
+
+.navbtn a:hover{
+    color: #07A3D7;
+}
+.navbtn a{
+    color: #F7F4E9;
+}
+.sec2toppanel,.sec2mid1panel, .sec2mid2panel,.sec6panel,.feature-card {
+    background-color: #dff8c9ac;
+    color: #203D14;
+}
+.sec2panel{
+    background-color: rgba(0, 128, 0, 0);
 }
